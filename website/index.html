@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="app.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <!--Adding this line fixed the favicon 404 error for me at chrome console  -->
+    <link rel="shortcut icon" href="#">
+    <title>Weather App</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header id="page-header">
+        Weather App
+    </header>
+    <!--Wind audio that plays whenever we click the button-->
+    <audio hidden id="wind" src="assets/wind.wav"></audio>
+    <main>
+        <!--Conatainer that conatins 1) the entryHolder,   2) the input fields and the button-->
+        <div id="container">
+            <div id="entryHolder">
+                <div id="date">2021/9/15</div>
+                <div id="temp"></div>
+                <div id="content"></div>
+            </div>
+            <!--Container For the input fields and the button-->
+            <div id="inputs-container">
+                <input id="zip" type="text" placeholder=" Enter Zip Code Here">
+                <textarea id="feelings" placeholder=" How are you feeling today ?" rows="1" cols="26"></textarea>
+                <button id="generate">Submit</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
