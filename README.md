@@ -14,7 +14,7 @@
 
 - HTML : HyperText Markup Language, it builds the complete structure of the website.
 - CSS  : Cascading Stylesheets, it used to provide the look and the format of the text which was written by the markup language "HTML".
--JavaScript : it's a programming language that it's used commonly with website to provide the behavior and to describe the functionalit of it.
+- JavaScript : it's a programming language that it's used commonly with website to provide the behavior and to describe the functionalit of it.
 -API From OpenWeatherMap.
 
 
