@@ -1,5 +1,5 @@
 //Global Variables
-const apiKey; // Personal API Key for OpenWeatherMap API, i removed my own as suggested in the review. 
+const apiKey; //I removed my own as suggested in the review so you can put ur own key.
 let zipBtn; //submit button
 let zipInput; //zip input area (the element)
 let feelingsInput; //feelings textarea element
